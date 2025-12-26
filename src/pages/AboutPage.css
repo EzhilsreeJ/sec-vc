@@ -1,0 +1,120 @@
+.about-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.page-header-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/about_hero.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header-section h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.page-header-section p {
+  font-size: 1.4rem;
+}
+
+.content-section {
+  padding: 60px 0;
+  background-color: #f8f9fa; /* Light background */
+}
+
+.content-section .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.about-content.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-content .text-block {
+  flex: 1;
+}
+
+.about-content .image-block {
+  flex: 1;
+  text-align: center;
+}
+
+.about-content .image-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.text-block h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+.text-block p,
+.text-block ul {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.text-block ul {
+  list-style: disc inside;
+  padding-left: 0;
+}
+
+.text-block ul li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .about-content,
+  .about-content.reverse {
+    flex-direction: column;
+  }
+  .about-content .image-block {
+    order: -1; /* Image above text on smaller screens */
+    margin-bottom: 30px;
+  }
+  .about-content.reverse .image-block {
+    order: -1;
+  }
+  .page-header-section h1 {
+    font-size: 2.5rem;
+  }
+  .page-header-section p {
+    font-size: 1.2rem;
+  }
+  .text-block h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header-section {
+    padding: 60px 20px;
+  }
+  .text-block p,
+  .text-block ul {
+    font-size: 1rem;
+  }
+}
