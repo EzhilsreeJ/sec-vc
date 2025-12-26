@@ -1,31 +1,3 @@
-# Saveetha Engineering College Basic Webpage
-
-This is a simple, React-based webpage designed to serve as a basic online presence for Saveetha Engineering College. It includes a header, footer, a homepage with sections for welcome, about preview, programs, and news, and an example About Us page.
-
-
--   **Responsive Design:** Adapts to various screen sizes.
--   **Navigation:** Simple header navigation.
--   **Homepage:** Engaging hero section, program highlights, and news updates.
--   **About Page:** Introduces the college's legacy, vision, facilities, and faculty.
--   **Modular Components:** Header, Footer, and Page components for easy management.
-
-
-
-*   Node.js and npm (or yarn) installed on your machine.
-
-
-1.  Clone this repository:
-    ```bash
-    git clone <repository-url>
-    cd saveetha-college-web
-    ```
-
-2.  Install dependencies:
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-
-To start the development server and view the application in your browser:
+npm start
+# or
+yarn start
