@@ -1,0 +1,47 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff; /* Default background */
+  color: #333; /* Default text color */
+  line-height: 1.6;
+}
+
+/* Global container for centering content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Basic links styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* General section padding */
+.section {
+  padding: 60px 0;
+}
+
+/* Placeholder for images if not found */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Remove bottom space */
+}
+
+/* Basic responsive helper */
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+}
